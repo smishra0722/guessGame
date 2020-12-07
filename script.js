@@ -25,6 +25,7 @@ function main() {
             body.style.backgroundColor = 'red';   
             scoreCount--;
         }  
+        guessBox.value = '';
     });
 
     reset.addEventListener('click', function reset() {
